@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package com.appsdeveloperblog.photoapp.api.gateway;
 
 import org.springframework.boot.SpringApplication;
@@ -15,3 +16,22 @@ public class PhotoAppApiZuulApiGatewayApplication {
 	}
 
 }
+=======
+package com.appsdeveloperblog.photoapp.api.gateway;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
+import org.springframework.cloud.netflix.zuul.EnableZuulProxy;
+
+@SpringBootApplication
+@EnableEurekaClient
+@EnableZuulProxy
+public class PhotoAppApiZuulApiGatewayApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(PhotoAppApiZuulApiGatewayApplication.class, args);
+	}
+
+}
+>>>>>>> ee407565f278dc14003eab2daad365ec52c4f093

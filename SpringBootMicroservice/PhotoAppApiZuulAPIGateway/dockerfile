@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 FROM openjdk:8-jdk-alpine 
 VOLUME /tmp 
 COPY target/PhotoAppApiZuulAPIGateway-0.0.1-SNAPSHOT.jar ZuulApiGateway.jar 
+=======
+FROM openjdk:8-jdk-alpine 
+VOLUME /tmp 
+COPY target/PhotoAppApiZuulAPIGateway-0.0.1-SNAPSHOT.jar ZuulApiGateway.jar 
+>>>>>>> ee407565f278dc14003eab2daad365ec52c4f093
 ENTRYPOINT ["java","-jar","ZuulApiGateway.jar"] 

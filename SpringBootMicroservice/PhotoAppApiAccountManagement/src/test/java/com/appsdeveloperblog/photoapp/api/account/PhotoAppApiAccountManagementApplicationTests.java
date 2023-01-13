@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package com.appsdeveloperblog.photoapp.api.account;
 
 import org.junit.Test;
@@ -14,3 +15,21 @@ public class PhotoAppApiAccountManagementApplicationTests {
 	}
 
 }
+=======
+package com.appsdeveloperblog.photoapp.api.account;
+
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.context.junit4.SpringRunner;
+
+@RunWith(SpringRunner.class)
+@SpringBootTest
+public class PhotoAppApiAccountManagementApplicationTests {
+
+	@Test
+	public void contextLoads() {
+	}
+
+}
+>>>>>>> ee407565f278dc14003eab2daad365ec52c4f093
